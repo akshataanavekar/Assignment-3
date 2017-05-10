@@ -1,0 +1,12 @@
+public class CheckPalindromeString {
+	
+	public String checkPalindrome(String teststring)
+	{
+		String copystring=teststring.reverse();
+		if(copystring==teststring)
+		System.debug('String is palindrome');
+		else
+		System.debug('String is not palindrome');
+	}
+    
+}

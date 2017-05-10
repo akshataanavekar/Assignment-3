@@ -1,0 +1,19 @@
+public with sharing class CheckPrimeNumber {
+	
+public static void primeCheck(int number)
+{
+	int notprime=0;
+	for(int count=2;count<number;count++)
+	{
+		if(math.mod(number,count)==0)
+			notprime++;
+	}
+	if(notprime)
+	System.debug('Number is Not aprime number');
+	else
+	System.debug('Number is prime');
+}	
+
+
+    
+}

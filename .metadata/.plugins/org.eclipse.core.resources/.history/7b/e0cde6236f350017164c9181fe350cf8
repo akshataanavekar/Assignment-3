@@ -1,0 +1,17 @@
+public class CheckPrimeNumber {
+	
+	public static void primeCheck(Integer number)
+	{
+		Integer notprime=0,count;
+		for(count=2;count<number;count++)
+		{
+			if(math.mod(number,count)==0)
+				notprime++;
+		}
+		if(notprime)
+			System.debug('Number is Not aprime number');
+		else
+			System.debug('Number is prime');
+	}	
+    
+}

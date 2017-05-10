@@ -1,0 +1,8 @@
+public with sharing class CheckPrimeNumber {
+	
+public int primeCheck(int number)
+{
+	for(int count=1;count<number;count++){}
+}	
+    
+}

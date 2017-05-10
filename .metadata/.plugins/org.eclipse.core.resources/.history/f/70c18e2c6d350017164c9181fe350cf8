@@ -1,0 +1,16 @@
+public with sharing class CheckPrimeNumber {
+	
+public int primeCheck(int number)
+{
+	int notprime=0;
+	for(int count=2;count<number;count++)
+	{
+		if(math.mod(number,count)==0)
+			notprime++;
+	}
+	return notprime;
+}	
+
+
+    
+}
