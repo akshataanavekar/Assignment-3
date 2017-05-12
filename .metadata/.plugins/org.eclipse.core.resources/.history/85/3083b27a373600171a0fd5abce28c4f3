@@ -1,0 +1,8 @@
+public class Rectangle implements Shape {
+	
+	Double area(Double height,Double width)
+	{
+		return (height*width)/2;
+	}
+    
+}

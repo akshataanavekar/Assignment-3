@@ -1,9 +1,0 @@
-public class ReplaceCharOccurence 
-{
-	public replaceCharacter(char replacment,String[] arrayofstring)
-	{
-		for(int index=0;index < arrayofstring.length;index++)
-		arrayofstring[i].replace('a',replacement);
-	}
-    
-}

@@ -1,0 +1,12 @@
+public class Student
+{
+    Integer Roll_no;
+    String name;
+    String address;
+        Student(Integer Roll_no,String name,String address)
+        {
+        this.Roll_no=Roll_no;
+        this.name=name;
+        this.address=address;
+        }
+}

@@ -1,0 +1,11 @@
+public with sharing class Savings extends Account 
+{
+	 public override Double withdraw(Integer amount)
+    {
+        balance=balance-amount;
+        return balance;
+    }
+	
+	
+    
+}

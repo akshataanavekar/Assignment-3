@@ -1,0 +1,9 @@
+public virtual class Account
+{
+    protected static Double balance=500;
+    public virtual Double withdraw(Integer amount)
+    {
+        balance=balance-amount;
+        return balance;
+    }
+}
